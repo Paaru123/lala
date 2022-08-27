@@ -1,0 +1,25 @@
+body{
+ background-image: url("Screenshot\ 2020-10-24\ at\ 5.03.25\ PM.png");   
+}
+h2{
+    font-size: 31px;
+}
+.btn-success:hover{
+background-color:rgba(65, 176, 255, 0.416);
+
+}
+
+canvas{
+    animation-name: chubbycheeks;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chubbycheeks{
+    from{
+        box-shadow:3px 3px 39px rgb(182, 223, 255);
+    }
+    to{
+        box-shadow:3px 3px 39px rgb(0, 187, 255);
+    }
+}
